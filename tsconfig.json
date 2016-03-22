@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "noImplicitAny": false,
+    "outDir": "dist",
+    "rootDir": ".",
+    "sourceMap": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node"
+  },
+  "filesGlob": [
+    "./src/*.ts",
+    "./src/**/*.ts",
+    "!./node_modules/**/*.ts",
+    "./typings/browser.d.ts"
+  ],
+  "files": [
+    "./src/app.ts",
+    "./src/vendor.ts",
+    "./src/app/app.ts",
+    "./src/app/components/form/form.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "atom": {
+    "rewriteTsconfig": true
+  }
+}

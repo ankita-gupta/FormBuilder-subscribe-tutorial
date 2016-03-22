@@ -1,0 +1,39 @@
+{
+"name": "FormBuilder-sample",
+"version": "0.0.1",
+"main": "",
+  "scripts": {
+    "start": "webpack-dev-server --inline --colors --progress --display-error-details --display-cached --port 3000 --content-base src"
+  },
+"dependencies": {
+"angular2": "2.0.0-beta.0",
+"angular2-jwt": "0.1.4",
+"bootstrap": "^3.3.6",
+"es6-promise": "^3.0.2",
+"es6-shim": "^0.33.3",
+"es7-reflect-metadata": "^1.4.0",
+"jwt-decode": "^1.5.0",
+"rxjs": "5.0.0-beta.0",
+"zone.js": "0.5.10"
+},
+"devDependencies": {
+"css-loader": "^0.23.0",
+"exports-loader": "0.6.2",
+"expose-loader": "^0.7.1",
+"file-loader": "^0.8.4",
+"imports-loader": "^0.6.4",
+"json-loader": "^0.5.3",
+"raw-loader": "0.5.1",
+"style-loader": "^0.13.0",
+"ts-loader": "^0.7.2",
+"tsconfig-lint": "^0.2.0",
+"tslint": "^3.2.0",
+"tslint-loader": "^2.1.0",
+"typedoc": "^0.3.12",
+"typescript": "^1.7.3",
+"typings": "^0.3.1",
+"url-loader": "^0.5.6",
+"webpack": "^1.12.9",
+"webpack-dev-server": "^1.12.1"
+}
+}

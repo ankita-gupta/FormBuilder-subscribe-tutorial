@@ -1,0 +1,81 @@
+<h2>Form</h2>
+<form [ngFormModel]="form">
+  <div>
+    <label for='firstname'>Firstname</label>
+    <input id = "firstname" type="text" [ngFormControl]="form.controls['firstname']">
+  </div>
+  <br>
+  <div>
+    <label for ='lastname'>Lastname</label>
+    <input id="lastname" type="text" [ngFormControl]="form.controls['lastname']" >
+  </div>
+</form>
+<br>
+<div class="boxed">
+    First name:<span *ngIf="output!=undefined">{{output.firstname}}</span>
+  <br><br>
+  Last name:<span *ngIf="output!=undefined">{{output.lastname}}</span>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+
+
+        <div class="row">
+          <form class="col s12" [ngFormModel]="signupForm" (ngSubmit)="signup(signupForm.value)">
+            <div class="row">
+              <div class="input-field col s6">
+                <input id="firstname" type="text" autocomplete="off" autofocus [ngFormControl]="signupForm.controls['firstname']">
+                <label for="firstname">Firstname</label>
+                <control-messages control="firstname"></control-messages>
+              </div>
+              <div class="input-field col s6">
+                <input id="lastname" type="text" autocomplete="off" autofocus [ngFormControl]="signupForm.controls['lastname']">
+                <label for="lastname">Lastname</label>
+                <control-messages control="lastname"></control-messages>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s6">
+                <input id="password1" type="password" [ngFormControl]="signupForm.controls['password1']">
+                <label for="password1">Password</label>
+                <control-messages control="password1"></control-messages>
+              </div>
+              <div class="input-field col s6">
+                <input id="password2" type="password" [ngFormControl]="signupForm.controls['password2']">
+                <label for="password2">Confirm Password</label>
+                <control-messages control="password2"></control-messages>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="input-field col s6"> -->
+                <!-- <input #role id="role" type="text">
+                <label for="role">Role</label> -->
+                <!-- <status-selector (select)="status = $event"></status-selector>
+
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <button type="submit"
+
+                    class="waves-effect waves-light btn blue darken-4">Signup</button>
+              </div>
+            </div>
+          </form>
+        </div>  -->
