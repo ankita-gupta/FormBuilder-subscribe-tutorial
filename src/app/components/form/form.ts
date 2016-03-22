@@ -1,6 +1,3 @@
-/**
- * Created by shivika on 2/4/16.
- */
 import {Component} from 'angular2/core';
 import { ControlGroup,FormBuilder,Validators,NgIf } from 'angular2/common';
 import 'rxjs/Rx';
